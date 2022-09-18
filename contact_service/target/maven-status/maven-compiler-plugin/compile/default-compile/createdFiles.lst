@@ -1,4 +1,5 @@
 com/contact/controller/CrudController.class
-com/contact/ContactServiceApplication.class
+com/contact/controller/TestController.class
 com/contact/entity/Crud.class
 com/contact/service/CrudService.class
+com/contact/ContactServiceApplication.class
