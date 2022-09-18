@@ -52,5 +52,10 @@ public class CrudController
 		return ResponseEntity.ok("test endpoint is working");
 	}
 
+	@GetMapping("/welcome")
+	public String welcome(){
+		return "checking it it working or not";
+}
+
 
 }
