@@ -1,0 +1,4 @@
+com/contact/controller/CrudController.class
+com/contact/ContactServiceApplication.class
+com/contact/entity/Crud.class
+com/contact/service/CrudService.class
