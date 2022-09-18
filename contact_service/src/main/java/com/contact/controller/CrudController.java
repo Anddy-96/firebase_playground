@@ -1,6 +1,7 @@
 package com.contact.controller;
 
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -15,6 +16,7 @@ import com.contact.entity.Crud;
 import com.contact.service.CrudService;
 
 @RestController
+@CrossOrigin(origins = "*")
 @RequestMapping("/crud")
 public class CrudController
 {
